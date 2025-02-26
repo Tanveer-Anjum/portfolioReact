@@ -1,6 +1,8 @@
 import NavBar from './Component/Navbar/NavBar'
 import Home from './Component/Home/Home'
 import About from './Component/About/About'
+import Experience from './Component/Experience/Experience'
+import Projects from './Component/Projects/Projects'
 
 function App() {
  
@@ -11,6 +13,8 @@ function App() {
     <NavBar/>
     <Home/>
     <About/>
+    <Experience/>
+    <Projects/>
   </div>
      </>
   )
