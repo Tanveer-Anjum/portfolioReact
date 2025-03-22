@@ -1,10 +1,12 @@
 import React from 'react'
-import CardImg from '../../assets/tanveer.png'
+// import CardImg from '../../assets/travel.jpg'
 
-function ProjectCards({title,main}) {
+
+function ProjectCards({title,main,image}) {
     return (
         <div className='p-3 md:p-6 flex flex-col w-80 bg-[#0c0c19] shadow-xl shadow-slate-900 rounded-2xl'>
-            <img className='p-4' src={CardImg} alt=''></img>
+            <img className='p-4' src={image} alt=''></img>
+           
             <h3 className='px-4 text-xl md:text-2xl font-bold leading-normal'>
                 {title}
             </h3>
